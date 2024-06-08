@@ -1,7 +1,22 @@
+.navbar-brand-custom {
+    color: #E1F25C !important;
+    font-size: 2rem!important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-custom {
+    color: #E1F25C!important;
+    border-color: #E1F25C!important;
+}
+.btn-custom:hover {
+    background-color: #E1F25C!important;
+    color: #ffffff!important;
+}
 .footer {
-    background-color: #838C3A; 
-    color: #E1F25C;
-    padding: 20px 0;
+    background-color: #838C3A!important; 
+    color: #E1F25C!important;
+    padding: 20px 0!important;
 }
 .footer a {
     color: #000;
