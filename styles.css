@@ -1,3 +1,7 @@
+.navbar-custom {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
 .navbar-brand-custom {
     color: #E1F25C !important;
     font-size: 2rem!important;
@@ -5,9 +9,21 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.btn-login-cadastro{
+    color: #E1F25C; 
+    text-decoration: none;
+}
+.nav-link {
+    color: #8b8c8c !important;
+}
+.nav-link.active {
+    color: #8b8c8c !important;
+    font-weight: bold !important;
+}
 .btn-custom {
     color: #E1F25C!important;
-    border-color: #E1F25C!important;
+    border-color: #E1F25C!important;    
 }
 .btn-custom:hover {
     background-color: #E1F25C!important;
