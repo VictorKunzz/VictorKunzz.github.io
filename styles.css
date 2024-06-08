@@ -1,6 +1,7 @@
 .navbar-custom {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
+    border-bottom: 1px solid #8b8c8c;
 }
 .navbar-brand-custom {
     color: #E1F25C !important;
