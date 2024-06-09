@@ -1,3 +1,17 @@
+/* Marca */
+
+.brand-bold {
+    color: #E1F25C;
+    font-weight: 700;
+}
+.brand-light {
+    color: #E1F25C;
+    font-weight: 300 !important;
+}
+
+
+/* Cabecalho */
+
 .navbar-custom {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
@@ -10,11 +24,6 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
-.btn-login-cadastro{
-    color: #E1F25C; 
-    text-decoration: none;
-}
 .nav-link {
     color: #8b8c8c !important;
 }
@@ -22,25 +31,86 @@
     color: #8b8c8c !important;
     font-weight: bold !important;
 }
+
+/* Botao */
+
+.btn-login-cadastro{
+    color: #E1F25C; 
+    text-decoration: none;
+}
 .btn-custom {
     color: #E1F25C!important;
     border-color: #E1F25C!important;    
 }
 .btn-custom:hover {
     background-color: #E1F25C!important;
-    color: #ffffff!important;
+    color: #000000 !important;
 }
+
+
+/* Corpo Padrao */
+
+body {
+    background-color: #838C3A !important; /* Cor de fundo verde oliva */
+    color: #ffffff; /* Cor do texto branco */
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Corpo FAQ */
+
+.faq-title{
+    font-size: 3rem;
+    margin-left: 50px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.faq-search-bar{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.faq-search-box{
+    margin-left: 50px;
+}
+#faq-search-btn{
+    background-color: transparent;
+    color: #E1F25C;
+    border-radius: 10px;
+    border:2px solid #E1F25C;
+    font-size: 1.15rem;
+}
+.faq-subtitle{
+    color: #ffffff;
+    font-size: 2.25rem;
+    margin-left: 50px;
+
+}
+.faq-item{
+    align-items: center !important;
+    margin-left: 80px;
+}
+
+.faq-item h3 {
+    font-size: 1.55rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.faq-item p {
+    font-size: 1.15rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+}
+
+/* Rodapé */
+
 .footer {
     background-color: #838C3A!important; 
     color: #E1F25C!important;
     padding: 20px 0!important;
-}
-.footer a {
-    color: #000;
-}
-.footer a:hover {
-    color: #fff;
-}
-.footer .social-icons {
-    font-size: 1.5rem;
 }
