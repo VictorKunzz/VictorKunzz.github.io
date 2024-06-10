@@ -45,14 +45,37 @@
 .btn-custom:hover {
     background-color: #E1F25C!important;
     color: #000000 !important;
+    .btn-login-cadastro{
+        color: #000000 !important;
+    }
+}
+.btn-login-cadastro-v2{
+    color: #E1F25C!important;
+    border-color: #E1F25C!important;
+    border-radius: 15px !important;
+    padding: 12px 25px !important;
+    font-size: 1rem !important;
+    min-width: 200px !important;
+    margin-bottom: 100px;
+}
+.btn-login-cadastro-v2:hover{
+    background-color: #E1F25C!important;
+    color: #000000 !important;
+    .textbtn-login-cadastro-v2{
+        color: #000000 !important;
+    }
+}
+.textbtn-login-cadastro-v2{
+    color: #E1F25C; 
+    text-decoration: none;
 }
 
 
 /* Corpo Padrao */
 
 body {
-    background-color: #838C3A !important; /* Cor de fundo verde oliva */
-    color: #ffffff; /* Cor do texto branco */
+    background-color: #838C3A !important;
+    color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0%;
     padding: 0%;
@@ -67,19 +90,8 @@ body {
     font-weight: 600;
     color: #ffffff;
 }
-.faq-search-bar{
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
 .faq-search-box{
     margin-left: 50px;
-}
-#faq-search-btn{
-    background-color: transparent;
-    color: #E1F25C;
-    border-radius: 10px;
-    border:2px solid #E1F25C;
-    font-size: 1.15rem;
 }
 .faq-subtitle{
     color: #ffffff;
@@ -106,6 +118,41 @@ body {
     margin-bottom: 40px;
 
 }
+
+
+/* Corpo Sobre Nós */
+.aboutus-intro{
+}
+.aboutus-title{
+    font-size: 3rem;
+    margin-left: 50px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.aboutus-brief{
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-left: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.aboutus-item{
+    margin-left: 80px;
+}
+.aboutus-item h3{
+    font-size: 1.55rem;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.aboutus-item p{
+    font-size: 1.15rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
 
 /* Rodapé */
 
