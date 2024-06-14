@@ -161,3 +161,12 @@ body {
     color: #E1F25C!important;
     padding: 20px 0!important;
 }
+
+
+/* Pagina Inicial */
+.homepage-title{
+    font-size: 2.5rem;
+    margin-left: 50px;
+    font-weight: 200;
+    color: #ffffff;
+}
