@@ -1,0 +1,40 @@
+.brand-bold {
+    color: #E1F25C;
+    font-weight: 700;
+}
+.brand-light {
+    color: #E1F25C;
+    font-weight: 300 !important;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222224;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-container {
+    background-color: #222224;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px ;
+    padding-right: 20px ;
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+/* Pagina Login */ 
+.login-box-sair{
+    margin-left: 340px;
+}
+
+.login-box h2{
+    font-size: 2rem;
+    color: #E1F25C;
+}
