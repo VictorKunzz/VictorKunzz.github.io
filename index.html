@@ -26,21 +26,33 @@
 }
 
 h1 {
-    color:white
-}
-
-h6{
-    color:white
-}
-
-h2{
     color:#E1F25C
+}
+
+h5{
+    color:white
 }
 
 i{
     color:#E1F25C
 }
 
+.gradient-text {
+background: linear-gradient(to right, #E1F25C, black); /* Defina as cores do degradê */
+-webkit-background-clip: text; /* Clip de texto para suporte no Safari/Chrome */
+-webkit-text-fill-color: transparent; /* Define a cor do texto como transparente para mostrar o degrade de fundo */
+display: inline-block;
+}
+
+.custom-text {
+    color: #E1F25C;
+}
+
+.full-width-img {
+width: 100%; /* Define a largura como 100% para ocupar todo o espaço disponível */
+height: auto; /* Mantém a proporção da imagem */
+display: block;
+}
 </style>
 
 </head>
@@ -86,21 +98,31 @@ i{
 
     </div>
 
-      <br>
-      <br>
-      <br>
-      <h3 class="text-center">BEM VINDO AO AURA BANK, O</h3>
-      <h3 class="text-center">BANCO QUE DESPERTARÁ A SUA</h3>
-      <h3 class="text-center">AURA FINANCEIRA</h3>
-      <div class="col text-center">
-        <button class="btn btn-light">ABRIR MINHA CONTA</button>
-   <div> 
-<div class="container">
+    <div>
 
+      <br>
+      <br>
+      <br>
+      <h3 class="text-center display-5">BEM VINDO AO AURA BANK, O</h3>
+      <h3 class="text-center display-5">BANCO QUE DESPERTARÁ A SUA</h3>
+      <h3 class="text-center display-5">AURA FINANCEIRA</h3>
+      <div class="col text-center">
+        <br>
+        <button class="btn btn-light rounded-5 btn-lg ">ABRIR MINHA CONTA</button> 
+    </div>
+</div>
+<div class="container-fluid p-0">
     <br>
-    <i>Cadastre-se aqui</i>
-    <button class="btn btn-light">Digite seu CPF</button>
-    <img src="cara1.png" class="w-100" alt="Imagem" class="img-fluid"
+    <br>
+    <br>
+    <img src="cara1.png" class="full-width-img" alt="Imagem em tela cheia">
+    <div class="position-absolute top-50 start-0 translate-middle-y " style="margin-top: +450px;">
+    <h2 class="custom-text">Cadastre-se aqui</h2>
+    <button class="btn btn-light rounded-5 btn-lg">Digite seu CPF</button>
+    
+    </div>
+  </div>
+
     <br>
             
 
@@ -112,45 +134,63 @@ i{
               <br>
               <br>
               <br>
-              <h4 class="text-center">Escolhido por mais de</h4>
-              <h2 class="text-center">1.000.000</h2>
-              <h5 class="text-center">pessoas que decidiram ter uma vida financeira mais</h5>
-              <h5 class="text-center">leve, transparente e descomplicada, com o melhor</h5>
-              <h5 class="text-center">que um banco pode oferecer no Brasil e no mundo</h5>
+              <div class="col text-center">
+              <h2>Escolhido por mais de</h2>
+              <h1 class="display-1 gradient-text">1.000.000</h1>
+              <h4>pessoas que decidiram ter uma vida financeira mais</h4>
+              <h4>leve, transparente e descomplicada, com o melhor</h4>
+              <h4 >que um banco pode oferecer no Brasil e no mundo</h4>
               <br>
               
           <div>
             
 
               <div>
-                <h1 class="text-start">"Conectando você à</h1> 
-                <h1 class="text-start">sua AURA finaceira"</h1>
                 
-               <img src="floresta.png" alt="Imagem" class="img-fluid"> 
-
-                <h6 class="text-end">A ponte para uma vida financeira mais iluminada. Conectamos você à sua</h6>
-                <h6 class="text-end">AURA financeira por meio de soluções inovadoras e acessíveis. Liberte-se</h6>
-                <h6 class="text-end">das preocupações financeiras e siga em direção à abundância.</h6>
+                <div class="position-relative">
+               <img src="floresta.png" class="full-width-img" alt="Imagem em tela cheia"> 
+               <div class="position-absolute top-50 start-0 translate-middle-y " style="margin-top: -300px;">
+               <h1 class="display-4 text-white">"Conectando você à</h1> 
+               <h1 class="display-4">sua AURA finaceira"</h1>
+               <div class="position-absolute bottom-0 end-0">
+                
+            </div>
+        </div>
+        <div class="position-absolute bottom-0 end-0">
+            <h5 class="text-end">A ponte para uma vida financeira mais iluminada. Conectamos você à sua</h5>
+            <h5 class="text-end">AURA financeira por meio de soluções inovadoras e acessíveis. Liberte-se</h5>
+            <h5 class="text-end">das preocupações financeiras e siga em direção à abundância.</h5>
+            <br>
+            <br>
+            <br>
+            </div>
+        </div>
                 <br>
                 <br>
                 <br>
-              <div>
-
-
-                <h3>Não espere mais. Abra sua conta em minutos</h3>
-                <h3>e experimente um banco</h3>
-                <h3>completo com tudo em um só app.</h3>
-                <button class="btn btn-light">ABRIR MINHA CONTA</button>
+                <br>
+                <div class="col text-center">
+                <h3 class="text-center">Não espere mais. Abra sua conta em</h3>
+                <h3 class="text-center"> minutos e experimente um banco</h3>
+                <h3 class="gradient-text">completo com tudo em um só app.</h3>
+                <br>
+                <br>
+                <button class="btn btn-light rounded-5 btn-lg text-center">ABRIR MINHA CONTA</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 
 
-            <div>
+    </div>
 
             
                 <div>
                     <br>
                     <br>
             <h4 class="text-center"> VANTAGENS DOS NOSSOS SERVIÇOS</h4>
-            <h4 class= "text-center" > SEGURANÇA AVANÇADA E TAXAS COMPETITIVAS</h4>
+            <h6 class= "text-center" > SEGURANÇA AVANÇADA E TAXAS COMPETITIVAS</h6>
             </div>   
 
             
