@@ -7,10 +7,36 @@
     font-weight: 300 !important;
 }
 
+/* BOTÃO */
+button{
+    margin-top: 20px;
+    color: #95A617;
+    background-color: #E1F25C;
+    border: 1px solid #E1F25C;
+    border-radius: 20px ;
+    padding: 10px;
+    font-size: 1rem ;
+}
+.button{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #95A617;
+    background-color: #E1F25C;
+    border: 1px solid #E1F25C;
+    border-radius: 20px ;
+    padding: 10px;
+    font-size: 1rem ;
+}
+
+button:hover {
+    background-color: #95A617;
+    color: #E1F25C;
+}
+
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
     background-color: #222224;
     color: white;
     display: flex;
@@ -18,23 +44,253 @@ body, html {
     justify-content: center;
 }
 
-.popup-container {
+/* Pagina Login */ 
+.login-popup-container {
     background-color: #222224;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 80px ;
-    padding-right: 20px ;
+    padding-right: 80px ;
     width: 500px;
     height: 600px;
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-radius: 40px;
 }
 
-/* Pagina Login */ 
 .login-box-sair{
     margin-left: 340px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.login-box-sair:hover{
+    font-weight: 600;
 }
 
-.login-box h2{
+.login-box-title{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.login-box-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box-input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.login-box-input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #222224;
+    padding: 0 5px;
+}
+
+.login-box-input-group input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #222224;
+    color: #fff;
+    font-size: 20px;
+}
+
+.login-box-input-group input:focus {
+    border-bottom: 2px solid #fff;
+    outline: none;
+}
+
+.login-box-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.login-box-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-box-links a:hover {
+    text-decoration: underline;
+}
+
+/* Fazer Cadastro */
+.sign-popup-container {
+    background-color: #222224;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px ;
+    padding-right: 80px ;
+    width: 600px;
+    height: 700px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-radius: 40px;
+}
+
+.sign-box-sair{
+    margin-left: 440px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.sign-box-sair:hover{
+    font-weight: 600;
+}
+
+.sign-box-title{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.sign-box2-title{
+    margin-top: 20px;
     font-size: 2rem;
-    color: #E1F25C;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.sign-box-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-box-input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sign-box-input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #222224;
+    padding: 0 5px;
+}
+
+.sign-box-input-group input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #222224;
+    color: #fff;
+    font-size: 20px;
+}
+
+.sign-box-input-group input:focus {
+    border-bottom: 2px solid #fff;
+    outline: none;
+}
+
+.sign-box-link {
+    display: flex;
+    margin-top: 15px;
+}
+
+.sign-box-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sign-box-link a:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+/* Esqueci minha senha */
+.password-popup-container {
+    background-color: #222224;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px ;
+    padding-right: 80px ;
+    width: 500px;
+    height: 700px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-radius: 40px;
+}
+
+.password-box-sair{
+    margin-left: 340px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.password-box-sair:hover{
+    font-weight: 600;
+}
+
+.password-box-title{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.password-box-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-box-input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.password-box-input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #222224;
+    padding: 0 5px;
+}
+
+.password-box-input-group input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #222224;
+    color: #fff;
+    font-size: 20px;
+}
+
+.password-box-input-group input:focus {
+    border-bottom: 2px solid #fff;
+    outline: none;
+}
+
+.password-box-advise{
+    color: #8C8C8B;
+}
+
+.password-box-link {
+    display: flex;
+    margin-top: 15px;
+}
+
+.password-box-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.password-box-link a:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
 }
