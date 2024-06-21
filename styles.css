@@ -40,6 +40,14 @@ header {
     font-weight: bold !important;
 }
 
+/* Rodapé */
+
+.footer {
+    background-color: #838C3A!important; 
+    color: #E1F25C!important;
+    padding: 20px 0!important;
+}
+
 
 /* Botao */
 
@@ -145,8 +153,6 @@ body {
 
 
 /* Corpo Sobre Nós */
-.aboutus-intro{
-}
 .aboutus-title{
     font-size: 3rem;
     margin-left: 50px;
@@ -175,15 +181,6 @@ body {
     font-weight: 500;
     margin-right: auto;
     margin-bottom: 40px;
-}
-
-
-/* Rodapé */
-
-.footer {
-    background-color: #838C3A!important; 
-    color: #E1F25C!important;
-    padding: 20px 0!important;
 }
 
 
@@ -310,7 +307,7 @@ margin-top: 50px;
 .homepage-feature p {
     font-weight: 700;
 }
-.homepage-icon {
+.homepage-feature-icon {
     width: 110px; 
     height: 110px;
     margin-bottom: 20px;
