@@ -2,19 +2,15 @@
 <html lang="pt-br">
 
 <head>
-    <title>FAQ</title>
-    <!-- Required meta tags -->
+    <title>Investimentos - Aura Bank</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="bg-light-green text-white">
     <header>
         <nav class="navbar navbar-dark bg-dark navbar-custom">
             <div class="container-fluid">
@@ -23,7 +19,7 @@
                     <a class="navbar-brand mx-auto navbar-brand-custom text-center"><b>AURA</b> BANK</a>
                     <form class="d-flex ms-auto">
                         <button class="btn btn-outline-success btn-custom" type="button">
-                            <a class="btn-login-cadastro" href="login-cadastro.html" >Login / Cadastro</a>
+                            <a class="btn-login-cadastro" href="login-cadastro.html">Login / Cadastro</a>
                         </button>
                     </form>
                 </div>
@@ -33,48 +29,206 @@
             <div class="container">
                 <div class="row w-100 text-center">
                     <div class="col">
-                        <a class="nav-link" href="faq.html" style="color: #8C8C8B;">FAQ</a>
+                        <a class="nav-link" href="faq.html">FAQ</a>
                     </div>
                     <div class="col">
-                        <a class="nav-link" href="sobre-nos.html" style="color: #8C8C8B;">SOBRE NÓS</a>
+                        <a class="nav-link" href="sobre-nos.html">SOBRE NÓS</a>
                     </div>
                     <div class="col">
-                        <a class="nav-link" href="index.html" style="color: #8C8C8B;">PÁGINA INICIAL</a>
+                        <a class="nav-link" href="index.html">PÁGINA INICIAL</a>
                     </div>
                     <div class="col">
-                        <a class="nav-link" href="sua-carteira.html" style="color: #8C8C8B;">SUA CARTEIRA</a>
+                        <a class="nav-link" href="sua-carteira.html">SUA CARTEIRA</a>
                     </div>
                     <div class="col">
-                        <a class="nav-link active" href="investimentos.html" style="color: #8C8C8B;">INVESTIMENTOS</a>
+                        <a class="nav-link active" href="investimentos.html">INVESTIMENTOS</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <!--    A
-                p
-                e
-                n
-                a
-                s
 
-                a
-                q
-                u
-                i
-        -->
+    <main class="container mt-5">
+        <div class="top-bar">
+            <span class="bell-icon">&#128276;</span> <!-- Bell icon -->
+            <span class="user-icon">&#128100; Nome</span> <!-- User icon and name -->
+        </div>
+
+        <div class="investment-card text-center mx-auto mt-5">
+            <h1>Investimentos</h1>
+            <p>Total Investido</p>
+            <h1>R$ 7.543,38</h1>
+            <a href="#" class="consult-link">Consultar meus rendimentos</a>
+        </div>
+        <section class="investments-section mt-5">
+            <h2>Investa no <span class="highlight">Brasil</span></h2>
+            <h4>O Melhor da Renda Fixa</h4>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>CDB Neon</p>
+                        <p>Liquidez em 90 dias</p>
+                        <h3>108% do CDI</h3>
+                        <span class="risk">Risco alto</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>Renda Fixa</p>
+                        <p>Liquidez em 90 dias</p>
+                        <h3>CDB Mercado Livre</h3>
+                        <span class="risk high-risk">Risco muito alto</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>CDB Will Bank</p>
+                        <p>Liquidez em 180 dias</p>
+                        <h3>118% do CDI</h3>
+                        <span class="risk">Risco alto</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>CDB Voiter</p>
+                        <p>Liquidez em 1 ano</p>
+                        <h3>119,5% do CDI</h3>
+                        <span class="risk">Risco alto</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="investment-card-section mt-5 text-center">
+            <h1>Investa no <span>Exterior</span></h1>
+            <div class="card mx-auto">
+                <h2>U$ 0,00</h2>
+                <div class="details">
+                    <p>Investimentos <span>U$ 0,00</span></p>
+                    <p>Saldo para investir <span>U$ 0,00</span></p>
+                    <p>Saldo em trânsito <span>U$ 0,00</span></p>
+                </div>
+                <div class="buttons">
+                    <button class="load">Carregar</button>
+                    <button class="redeem">Resgatar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="image-section text-center mt-5">
+            <img src="/mnt/data/image.png" alt="Imagem Ações EUA" class="acoes-eua-img">
+        </section>
+
+        <section class="acoes-eua mt-5">
+            <h2>Ações EUA</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>S&P 500 ETF</p>
+                        <p>iShares Core</p>
+                        <h3>+0,35%</h3>
+                        <span>USD 323,08</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>US Industrials ETF</p>
+                        <p>iShares</p>
+                        <h3>+0,59%</h3>
+                        <span>USD 124,67</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>MSFT</p>
+                        <p>Microsoft Corp</p>
+                        <h3>-0,40%</h3>
+                        <span>USD 319,89</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="investment-card">
+                        <p>META</p>
+                        <p>Meta Platforms Inc</p>
+                        <h3>-0,76%</h3>
+                        <span>USD 462,18</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-left mt-4 mb-4">
+                    <h1>Serviço IA</h1>
+                    <p>(É necessária a assinatura)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-1">
+                        <div class="card-body card-overlay">
+                            <h5 class="card-title">Carteira Sugerida</h5>
+                            <p class="card-text">Rentabilidade relativa e <br> Alta Liquidez</p>
+                            <span class="badge badge-secondary">Risco baixo</span>
+                            <div class="lock-overlay">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/lock--v1.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-2">
+                        <div class="card-body card-overlay">
+                            <h5 class="card-title">Carteira Sugerida</h5>
+                            <p class="card-text">Invista nos ativos de <br> Melhor Performance</p>
+                            <span class="badge badge-secondary">Risco alto</span>
+                            <div class="lock-overlay">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/lock--v1.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-3">
+                        <div class="card-body card-overlay">
+                            <h5 class="card-title">Carteira Sugerida</h5>
+                            <p class="card-text">Cuide do seu <br> Seguro</p>
+                            <div class="lock-overlay">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/lock--v1.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-4">
+                        <div class="card-body card-overlay">
+                            <h5 class="card-title">Carteira Sugerida</h5>
+                            <p class="card-text">Garanta seu <br> Futuro</p>
+                            <span class="badge badge-secondary">Risco moderado</span>
+                            <div class="lock-overlay">
+                                <img src="https://img.icons8.com/ios-glyphs/30/000000/lock--v1.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="footer text-center">
-        <p>&copy; 2024 Aura Bank. Todos os direitos reservados.</p>
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
 
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p>&copy; 2023 Aura Bank. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGzOg8pHILNfH/Un5QhQ2BJiT9WjGL5yy7wYdktK7uLT8"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        integrity="sha384-XE/8oA1TBe0mW9QXdb1G/nVG3G5fXj3fHG9tqyJ8YtstjZgtI2GOE6niLTz2IMjF"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
+

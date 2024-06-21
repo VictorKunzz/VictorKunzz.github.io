@@ -1,45 +1,147 @@
-.navbar-custom {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
-}
-.navbar-brand-custom {
-    color: #E1F25C !important;
-    font-size: 2rem!important;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+ /* Estilos para as classes específicas dos cards */
+ .card-1 {
+    background-color:  D9E956; /* Cor específica para o card 1 */
 }
 
-.btn-login-cadastro{
-    color: #E1F25C; 
+.card-2 {
+    background-color:  D9E956; /* Cor específica para o card 2 */
+}
+
+.card-3 {
+    background-color:  D9E956; /* Cor específica para o card 3 */
+}
+
+.card-4 {
+    background-color:  D9E956; /* Cor específica para o card 4 */
+}
+
+/* Estilos para a overlay */
+.card-overlay {
+    position: relative;
+}
+
+.lock-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color:   hwb(76 2% 55% / 0.897)   ;
+    padding: 5px;
+    border-radius: 50%;
+}
+ 
+.highlight {
+    color: hwb(76 8% 18% / 0.897); /cor   /BRASIL 
+}
+
+
+.bg-light-green {
+    background-color: rgb(123, 153, 66);  //cor do fundo 
+}
+
+.text-white {
+    color: floralwhite
+}
+
+.navbar-custom {
+    background-color: #8a2b8d;
+}
+
+.navbar-brand-custom {
+    font-family: "Arial", sans-serif;
+}
+
+.btn-custom {
+    background-color: hwb(76 8% 18% / 0.897); /LOGIN/CADASTRO/
+    border: none;
+}
+
+.btn-login-cadastro {
+    color: #ffffff;
     text-decoration: none;
 }
-.nav-link {
-    color: #8b8c8c !important;
+
+.btn-login-cadastro:hover {
+    color: #f0ad4e;
 }
-.nav-link.active {
-    color: #8b8c8c !important;
-    font-weight: bold !important;
+
+.investment-card {
+    background-color:  hwb(76 8% 18% / 0.897);
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
-.btn-custom {
-    color: #E1F25C!important;
-    border-color: #E1F25C!important;    
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
 }
-.btn-custom:hover {
-    background-color: #E1F25C!important;
-    color: #ffffff!important;
+
+.top-bar .bell-icon,
+.top-bar .user-icon {
+    margin-left: 20px;
 }
-.footer {
-    background-color: #838C3A!important; 
-    color: #E1F25C!important;
-    padding: 20px 0!important;
-}
-.footer a {
+
+.consult-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: underline;
     color: #000;
 }
-.footer a:hover {
-    color: #fff;
+
+.investments-section h2,
+.investment-card-section h1 {
+    font-family: Arial, sans-serif;
 }
-.footer .social-icons {
-    font-size: 1.5rem;
+
+.investment-card-section .card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card .details p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .buttons button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .buttons .load {
+    background-color: rgb(255, 255, 255);
+    color: hwb(76 3% 37% / 0.897);
+}
+
+.card .buttons .redeem {
+    background-color:  rgb(255, 255, 255);
+    color: hwb(76 3% 37% / 0.897);
+}
+
+.acoes-eua-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.acoes-eua .investment-card {
+    background-color: hwb(76 8% 18% / 0.897);
+    color: #000000;
+}
+
+.risk {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
