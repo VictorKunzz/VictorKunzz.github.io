@@ -2,6 +2,13 @@
        
        /*olá nome, saldo, pix e etc. */
        
+       .profile{
+        display: inline-block;
+        margin: 1px;
+            
+            
+       }
+       
        .container-box {
             
             text-align: center;
@@ -186,7 +193,25 @@
             position: relative !important;
             left: 450px !important;
         }
+
+        .move-left1 {
+            
+            color: #000000 !important;
+            font-size: 2.5em;
+            position: relative !important;
+            left: 825px !important;
+            margin-top: 20px;
+        }
         
+        .move-left {
+            
+           
+            color: #000000 !important;    
+            font-size: 2.5em;
+            position: relative !important;
+            left: -820px !important;
+            margin-top: 20px;
+        }
 
     
         
