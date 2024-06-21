@@ -1,0 +1,194 @@
+        
+       
+       /*olá nome, saldo, pix e etc. */
+       
+       .container-box {
+            
+            text-align: center;
+            background-color: #d4e157; /* Cor de fundo das caixas */
+            padding: 20px;
+            border-radius: 50px;
+            margin-top: 80px; /* Margem para ajustar com o header fixo */
+            width: 100%;
+            
+        }
+        .info-box {
+            display: inline-block;
+            background-color: #d4e157;
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin: 5px;
+            width: calc(40% - 440px);
+            text-align: center;
+        }
+        .info-box .info-text {
+            font-size: 1.5em;
+            color: #343a40; /* Cor do texto */
+        }
+        .info-box .icon {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+
+        .text-center {
+            
+            margin-top: 60px;
+            
+        }
+
+        .action-btn {
+            background-color: #d4e157; /* Cor de fundo dos botões */
+            border-radius: 50%;
+            padding: 20px;
+            margin: 15px;
+            font-size: 1.2em;
+            
+        }
+
+        .info-box1 {
+            display: inline-block;
+            background-color: #d4e157;
+            padding: 25px;
+            border-radius: 50px;
+            margin: 5px;
+            width: calc(650px);
+            text-align: center;
+        }
+
+        /*extrato e investimento*/
+
+        .container-1 {
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section-title {
+            color: #000;
+            border-bottom: 4px solid #E1F25C;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .extrato, .investimentos {
+            background-color: #838C3A;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .description {
+            color: #000000;
+        }
+        
+        .percentage {
+            font-weight: bold;
+            float: right;
+        }
+
+        .investimentos{
+            margin: 20px;
+        }
+
+        .btn-warning {
+            background-color: #E1F25C !important;
+            border-radius: 50px !important;
+            color: #000000;
+        }
+
+        
+
+
+        /*recomendações IA*/
+
+        .promo-container {
+            background-color: #838C3A;
+            color: #fff;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        
+        .section-title-1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+        
+        .h3 {
+            font-size: 3.0em !important;
+            margin-bottom: 15px;
+            color: #4c4c4c;
+        }
+        
+        .h4 {
+            font-size: 3.0em !important;
+            margin-bottom: 15px;
+            color: #fffcfc;
+        }
+        
+        
+        .beta-highlight {
+            color: #E1F25C;
+            font-weight: bold;
+        }
+
+        .beta-highlight1 {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .beta-highlight2 {
+            color: #ffffff;
+            font-size: 1.8em;
+        }
+        
+        .price-box {
+            background-color: #9FAB45;
+            padding: 20px;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            
+        }
+        
+        .price {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        
+        .per-month {
+            display: block;
+            font-size: 2.0em;
+            color: #E1F25C;
+        }
+
+        .back-to-top {
+            margin-top: 200px !important;
+        }
+        
+        .back-to-top a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        
+        .back-to-top a:hover {
+            text-decoration: underline;
+        }
+
+        .btn-warning1 {
+            background-color: #E1F25C !important;
+            border-radius: 50px !important;
+            color: #000000 !important;
+            font-size: 1.2em;
+            padding: 15px 30px;
+            margin-top: 20px;
+            position: relative !important;
+            left: 450px !important;
+        }
+        
+
+    
+        
+        
+        
