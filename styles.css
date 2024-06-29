@@ -44,6 +44,60 @@
     font-size: 1.5rem;
 }
 
-h2 {
-    color:white
+.custom-bg {
+    background-color:  #838C3A; /* Cor de fundo para o corpo da página */
+    border-color:transparent !important;
+    
+}
+body{
+background-color:  #838C3A;
+}
+h3 {
+color:white
+}
+
+h1 {
+color:#E1F25C
+}
+
+h5{
+color:white
+}
+
+i{
+color:white
+}
+
+
+.gradient-text {
+background: linear-gradient(to right, #E1F25C, black); /* Defina as cores do degradê */
+-webkit-background-clip: text; /* Clip de texto para suporte no Safari/Chrome */
+-webkit-text-fill-color: transparent; /* Define a cor do texto como transparente para mostrar o degrade de fundo */
+display: inline-block;
+}
+
+.custom-text {
+color: #E1F25C;
+}
+
+.destaque {
+color: #E1F25C; /* Cor verde */
+/* Outros estilos desejados */
+}
+
+.full-width-img {
+width: 100%; /* Define a largura como 100% para ocupar todo o espaço disponível */
+height: auto; /* Mantém a proporção da imagem */
+display: block;
+}
+
+.destaque2 {
+font-weight: bold;
+color: black; /* Cor verde */
+/* Outros estilos desejados */
+}
+
+.destaque3{
+color: black; /* Cor verde */
+/* Outros estilos desejados */
 }
