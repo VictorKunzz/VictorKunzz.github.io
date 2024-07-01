@@ -1,24 +1,18 @@
-        
+/*olá nome, saldo, pix e etc. */
+.profile{
+    display: inline-block;
+    margin: 1px;
+            
+}
        
-       /*olá nome, saldo, pix e etc. */
-       
-       .profile{
-        display: inline-block;
-        margin: 1px;
-            
-            
-       }
-       
-       .container-box {
-            
-            text-align: center;
-            background-color: #d4e157; /* Cor de fundo das caixas */
-            padding: 20px;
-            border-radius: 50px;
-            margin-top: 80px; /* Margem para ajustar com o header fixo */
-            width: 100%;
-            
-        }
+.container-box {      
+    text-align: center;
+    background-color: #d4e157; /* Cor de fundo das caixas */
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 80px; /* Margem para ajustar com o header fixo */
+    width: 100%;
+}
         .info-box {
             display: inline-block;
             background-color: #d4e157;
