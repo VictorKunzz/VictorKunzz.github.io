@@ -3,14 +3,19 @@
 
 <head>
     <title>Sua Carteira - AURA BANK</title>
+  
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/corpopagina.css">
+    <link rel="stylesheet" href="css/carteira.css">
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
@@ -42,29 +47,119 @@
                         <a class="nav-link" href="index.html" style="color: #8C8C8B;">PÁGINA INICIAL</a>
                     </div>
                     <div class="col">
-                        <a class="nav-link active" href="sua-carteira.html" style="color: #8C8C8B;">SUA CARTEIRA</a>
+                        <a class="nav-link" href="sua-carteira.html" style="color: #8C8C8B;">SUA CARTEIRA</a>
                     </div>
                     <div class="col">
-                        <a class="nav-link" href="investimentos.html" style="color: #8C8C8B;">INVESTIMENTOS</a>
+                        <a class="nav-link active" href="investimentos.html" style="color: #8C8C8B;">INVESTIMENTOS</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <!--    A
-                p
-                e
-                n
-                a
-                s
 
-                a
-                q
-                u
-                i
-        -->
+    <main>
+        <div class="d-flex justify-content-center w-100">
+            <div class="move-left">
+            <i class="bi bi-bell"></i> <!-- Ícone de Notificação -->  
+        </div> 
+        
+            <div class="move-left1">
+                <span>Nome</span>
+                <i class="bi bi-person-circle"></i> <!-- Ícone de Perfil -->
+            </div>
+        </div>
+        </div>
+
+    <!-- Caixa de Boas-Vindas -->
+    <div class="d-flex justify-content-center w-100">
+        <h2 class="info-box1">Olá, Nome</h2>
+    </div>
+
+    <!-- Informações de Saldo e Rendimento Semestral -->
+    <div class="d-flex justify-content-center w-100">
+        <div class="info-box"> 
+            <div><i class="bi bi-wallet icon"><!-- Ícone de Carteira --></i> Saldo</div>
+            <div class="info-text">R$ 10.000,00</div>
+        </div>
+        <div class="info-box">
+            <div><i class="bi bi-bar-chart-fill"></i><!-- Ícone de Gráfico --></i> Rendimento Semestral</div>
+            <div class="info-text">% 17,28</div>
+        </div>
+    </div>
+
+    <!-- Botões de Ação -->
+    <div class="d-flex justify-content-center">
+        <div class="text-center">
+            <button class="action-btn">
+                <i class="bi bi-x-diamond-fill"></i> <!-- Ícone de Pix -->
+            </button>
+            <div>Pix</div>
+        </div>
+        <div class="text-center">
+            <button class="action-btn">
+                <i class="bi bi-upc-scan"></i> <!-- Ícone de Pagar -->
+            </button>
+            <div>Pagar</div>
+        </div>
+        <div class="text-center">
+            <button class="action-btn">
+                <i class="bi bi-graph-up icon"></i> <!-- Ícone de Investir -->
+            </button>
+            <div>Investir</div>
+        </div>
+    </div>
+
+    <div id="container1" class="container mt-5">
+        <div class="row">
+            <!-- Extrato -->
+            <div class="col-md-6">
+                <h2 class="section-title"><i class="bi bi-file-earmark-text"></i> Extrato</h2>
+                <div class="extrato">
+                    <h4 id="h41">25 de março</h4>
+                    <p>-R$20,00 <span class="description">PIX iFood</span></p>
+                    <p>-R$17,50 <span class="description">Compra débito</span></p>
+                    <p>-R$9,20 <span class="description">PIX Uber</span></p>
+                    <h4>23 de março</h4>
+                    <p>-R$47,90 <span class="description">Compra débito</span></p>
+                    <p>+R$3.700,00 <span class="description">PIX de Instituição de Trabalho</span></p>
+                </div>
+            </div>
+            <!-- Investimentos -->
+            <div class="col-md-6">
+                <h2 class="section-title"><i class="bi bi-pie-chart-fill"></i> Investimentos</h2>
+                <button class="btn btn-warning mb-3">Consultar meus rendimentos</button>
+                <div class="investimentos">
+                    <p>AAPL <span class="percentage">3,17% <i class="fas fa-arrow-up text-success"></i></span></p>
+                    <p>BTC <span class="percentage">6,32% <i class="fas fa-arrow-up text-success"></i></span></p>
+                    <p>TSLA <span class="percentage">-2,91% <i class="fas fa-arrow-down text-danger"></i></span></p>
+                    <p>GOLD <span class="percentage">5,18% <i class="fas fa-arrow-up text-success"></i></span></p>
+                    <p>CDI <span class="percentage">5,52% <i class="fas fa-arrow-up text-success"></i></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid promo-container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-8">
+                <h2 class="section-title-1">Recomendações IA</h2>
+                <h3>Assine para ter acesso a <br> nossa <span class="beta-highlight">IA </span><span class="beta-highlight1">Assistente de <br> Investimentos</span></h3>
+                <div class="price-box">
+                <h4>Tenha acesso antecipado à versão <span class="beta-highlight">BETA</span> da <br> assistente de investimentos por apenas:</h4>
+
+                    <span class="price">R$ <span class="beta-highlight2">29</span>,90</span>
+                    <span class="per-month">por mês</span>
+                    <button class="btn btn-warning1 btn-lg"><b>GARANTA JÁ</b</button>
+                </div>
+                <p class="back-to-top"><a href="#">Voltar ao topo</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
     </main>
+
+    
     <footer class="footer text-center">
         <p>&copy; 2024 Aura Bank. Todos os direitos reservados.</p>
     </footer>
@@ -76,5 +171,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
 </body>
 </html>
