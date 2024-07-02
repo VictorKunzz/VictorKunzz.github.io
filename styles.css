@@ -319,4 +319,206 @@ margin-top: 50px;
     font-size: 2.5rem;
 }
 
+/* Sua Carteira */
 
+.wallet-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.wallet-btn-left img {
+    width: 30px;
+    height: auto;
+}
+.wallet-notificacao img {
+    width: 30px;
+    height: auto;
+}
+.wallet-perfil img {
+    width: 35px;
+    height: auto;
+}
+
+#wallet-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.wallet-container {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.wallet-boasvindas {
+    background-color: #343a40;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    color: #E1F25C;
+}
+
+.wallet-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.wallet-balance, .wallet-earnings {
+    background-color: #343a40;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    text-align: center;
+    color: #E1F25C;
+}
+
+.wallet-balance img, .wallet-earnings img {
+    width: 24px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.wallet-amount, .wallet-percentage {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#wallet-section3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.wallet-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 600px;
+}
+
+.wallet-button {
+    width: 90px;
+    height: 90px;
+    background-color: #343a40;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wallet-button img {
+    width: 20px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#wallet-section4 {
+
+}
+
+.wallet-section-title {
+    color: #343a40;
+    border-bottom: 4px solid #343a40;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.wallet-extrato, .wallet-investimentos {
+    background-color: #343a40;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.wallet-extrato h4{
+    color: #E1F25C;
+}
+.wallet-extrato p{
+    color: #D9D9D9;
+}
+
+.wallet-description {
+    color: #E1F25C;
+}
+
+.wallet-investimentos p{
+    color: #E1F25C;
+}
+
+.percentage {
+    font-weight: bold;
+    float: right;
+}
+
+.wallet-investimentos{
+    margin: 20px;
+}
+
+.wallet-btn-rendimentos {
+    background-color: #E1F25C !important;
+    border-radius: 50px !important;
+    color: #000000;
+}
+
+.wallet-promo-container {
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+ 
+.wallet-section-title-1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+ 
+.wallet-beta-highlight {
+    color: #E1F25C;
+    font-weight: bold;
+}
+.wallet-beta-highlight1 {
+    color: #000000;
+    font-weight: bold;
+}
+.wallet-beta-highlight2 {
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+.wallet-price-box {
+    background-color: #9FAB45;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.wallet-price {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.wallet-per-month {
+    display: block;
+    font-size: 2.0em;
+    color: #E1F25C;
+}
+.back-to-top {
+    margin-top: 200px !important;
+}
