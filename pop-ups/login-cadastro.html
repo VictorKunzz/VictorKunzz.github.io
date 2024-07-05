@@ -16,7 +16,7 @@
     <main>
         <div class="login-popup-container">
             <div class="login-box">
-                <a class="login-box-sair" href="../index.html">Sair</a>
+                <a class="login-box-sair" href="javascript:history.back()">Sair</a>
                 <h2 class="login-box-title">Acesse sua conta</h2>
             </div>
             <form class="login-box-form">
@@ -37,7 +37,7 @@
         </div>
     </main>
 
-    <script>
+    <script src="script.js">
         function validateAndRedirect() {
             var cpf = document.getElementById("cpf").value;
             var password = document.getElementById("password").value;
