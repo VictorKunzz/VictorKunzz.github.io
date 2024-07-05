@@ -47,3 +47,7 @@ const barChart = new Chart(barCtx, {
         }
     }
 });
+
+function goBack() {
+    window.history.back();
+}
